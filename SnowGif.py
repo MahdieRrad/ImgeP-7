@@ -23,7 +23,7 @@ for i in range(row//5):
     imgeC = cv2.cvtColor(imge1,cv2.COLOR_BGR2RGB)
     for k,j in enumerate(arry): 
 
-        cv2.circle(imgeC,(j[0],j[1]),j[2],(200, 219, 219),-1)
+        cv2.circle(imgeC,(j[0],j[1]),j[2],(255, 200, 180),-1)
         j[0] = j[0] + j[3]  
         j[1] = j[1] + j[4]
     S_GIF.append(imgeC)
